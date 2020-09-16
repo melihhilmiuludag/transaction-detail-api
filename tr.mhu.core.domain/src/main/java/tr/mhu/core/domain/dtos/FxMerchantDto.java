@@ -1,0 +1,14 @@
+package tr.mhu.core.domain.dtos;
+
+import lombok.Data;
+
+/**
+ * @author muludag on 13.09.2020
+ */
+@Data
+public class FxMerchantDto {
+	Integer originalAmount;
+	String originalCurrency;
+	Integer convertedAmount;
+	String convertedCurrency;
+}

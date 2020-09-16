@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS PUBLIC.REGISTER(
+	ID VARCHAR(36) not null
+		constraint REGISTER_pk
+			primary key,
+	TOKEN NVARCHAR(1024)  not null,
+	SYSTEM_NAME VARCHAR(50) not null,
+	CREATED_DATE TIMESTAMP not null,
+	EXPIRE_DATE TIMESTAMP not null
+);

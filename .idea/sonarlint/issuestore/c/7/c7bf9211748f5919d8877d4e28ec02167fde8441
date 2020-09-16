@@ -1,0 +1,9 @@
+
+
+java:S4144e"mUpdate this method so that its implementation is not identical to "rRequestTransactionRequestDto" on line 89.(®ıûÚùÿÿÿÿ8ëÎ»¢É.
+K
+java:S1444".Make this "public static listSize" field final(„í“”8¯–ò¡É.
+q
+java:S1104"TMake listSize a static final constant or non-public and provide accessors if needed.(„í“”8¯–ò¡É.
+\
+java:S1118":Add a private constructor to hide the implicit public one.(‚­¼Ñûÿÿÿÿ8¨ˆı É.
